@@ -63,3 +63,7 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
+
+# Logging
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
