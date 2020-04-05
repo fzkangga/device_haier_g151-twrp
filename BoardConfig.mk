@@ -56,6 +56,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
+# Ignore Missing Dependencies
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Encryption support
 TW_INCLUDE_CRYPTO := true
 TARGET_HW_DISK_ENCRYPTION := true
@@ -63,3 +66,4 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
+TW_CRYPTO_USE_SBIN_VOLD := true
