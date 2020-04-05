@@ -60,10 +60,11 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Encryption support
-TW_INCLUDE_CRYPTO := true
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
+TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_USE_SBIN_VOLD := true
