@@ -7,7 +7,7 @@ on init
     chmod 0664 /dev/ion
     chown system system /dev/ion
 
-    setprop ro.board.platform msm8916
+    setprop ro.board.platform msm8909
 
 # separate copy needed to use /sbin/linker instead of /system/bin/linker
 service sbinqseecomd /sbin/qseecomd
